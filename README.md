@@ -2,7 +2,7 @@
 Animations for FiveM servers put together by TrundleTheGreat  
 Check out the Radiant Roleplay community!  
 
-Use /e <animation> to start or stop an animation  
+Use /e 'animation' to start or stop an animation  
 
 Special thanks to:   
 --New custom animations based off DavesEmotes from @davewazere  
