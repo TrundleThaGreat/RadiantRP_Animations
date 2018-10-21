@@ -4,7 +4,7 @@ Check out the Radiant Roleplay community!
 
 Use /e 'animation' to start or stop an animation  
 
--- Commands
+-- Commands  
  -- Salute: 		/e salute 		: Salute your commrads!  
  -- Bird 1: 		/e finger 		: One hand middle Finger  
  -- Bird 2: 		/e finger2 		: 2 hands middle finger  
