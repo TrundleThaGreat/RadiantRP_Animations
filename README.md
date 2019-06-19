@@ -2,12 +2,12 @@
 Animations for FiveM servers put together by TrundleTheGreat  
 Check out the Radiant Gaming community!  
 
-This resource does NOT require ESX/vRP, just start the resource and enjoy.
+This resource does NOT require ESX/vRP, just start the resource and enjoy.   
 
 6-18-2019 Changes:  
-/e 'animation' to start or stop an animation 
-/e help to see all the animations in chat  
-/e stuckprop to delete your spawned props  
+/e 'animation' to start or stop an animation  
+/e help to see all the animations in chat    
+/e stuckprop to delete your spawned props    
 
 - Config based animations to hopefully make it easier to add into custom menus such as NativeUI  
 - Completely remade from scratch and should be much more optimized
