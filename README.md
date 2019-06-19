@@ -26,8 +26,8 @@ New Animations:
  -- mdance2     /e mdance2: Male Dance 2  
 
 -- Press U for police radio animation  
--- Press H to put hands up
--- Press K to place hand over holster
+-- Press H to put hands up  
+-- Press K to place hand over holster  
 
 -- Commands  
  -- Salute: 		/e salute 		: Salute your commrads!  
