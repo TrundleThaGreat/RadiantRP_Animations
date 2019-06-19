@@ -8,6 +8,7 @@ This resource does NOT require ESX/vRP, just start the resource and enjoy.
 /e 'animation' to start or stop an animation  
 /e help to see all the animations in chat    
 /e stuckprop to delete your spawned props    
+/e stop to cancel current animation
 
 - Config based animations to hopefully make it easier to add into custom menus such as NativeUI  
 - Completely remade from scratch and should be much more optimized
