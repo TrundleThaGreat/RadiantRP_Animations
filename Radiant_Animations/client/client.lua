@@ -32,6 +32,21 @@ Citizen.CreateThread( function()
 					TaskPlayAnim(player, "random@mugging3", "handsup_standing_base", 2.0, 2.5, -1, 49, 0, 0, 0, 0 )
 				end
 			end
+
+		elseif (IsControlJustPressed(0,Config.HoverHolsterKey)) then
+			local player = PlayerPedId()
+	
+			if ( DoesEntityExist( player ) and not IsEntityDead( player ) ) then
+	
+				loadAnimDict( "move_m@intimidation@cop@unarmed" )
+	
+				if IsEntityPlayingAnim(player, "move_m@intimidation@cop@unarmed", "idle", 3) then
+					ClearPedSecondaryTask(player)
+					RemoveAnimDict("move_m@intimidation@cop@unarmed")
+				else
+					TaskPlayAnim(player, "move_m@intimidation@cop@unarmed", "idle", 2.0, 2.5, -1, 49, 0, 0, 0, 0 )
+				end
+			end
 		end
 	end
 end)
@@ -141,12 +156,12 @@ RegisterCommand("e", function(source, args)
 	local player = PlayerPedId()
 	local argh = tostring(args[1])
 
-	if argh == 'help' then -- List Anims in Chat
-		TriggerEvent('chat:addMessage', { args = { '[^1Animations^0]: salute, finger, finger2, surrender, facepalm, notes, brief, brief2, foldarms, foldarms2, damn, fail, gang1, gang2, no, pickbutt, grabcrotch, peace, cigar, cigar2, joint, cig, holdcigar, holdcig, holdjoint, dead, holster, aim, aim2, slowclap, box, cheer, bum, leanwall, copcrowd1, copcrowd2, copidle' } })
-	elseif argh == 'stuckprop' then -- Deletes Clients Props
+	if argh == 'help' then -- List Anims in Chat Command
+		TriggerEvent('chat:addMessage', { args = { '[^1Animations^0]: salute, finger, finger2, phonecall, surrender, facepalm, notes, brief, brief2, foldarms, foldarms2, damn, fail, gang1, gang2, no, pickbutt, grabcrotch, peace, cigar, cigar2, joint, cig, holdcigar, holdcig, holdjoint, dead, holster, aim, aim2, slowclap, box, cheer, bum, leanwall, copcrowd1, copcrowd2, copidle' } })
+	elseif argh == 'stuckprop' then -- Deletes Clients Props Command
 		TriggerEvent('Radiant_Animations:KillProps')
 
-	elseif argh == 'surrender' then -- Deletes Clients Props
+	elseif argh == 'surrender' then -- I'll figure out a better way to do animations with this much depth later.
 		TriggerEvent('Radiant_Animations:Surrender')
 	else
 		for i = 1, #Config.Anims, 1 do
