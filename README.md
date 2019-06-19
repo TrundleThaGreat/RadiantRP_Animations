@@ -25,6 +25,9 @@ New Animations:
  -- mdance1     /e mdance1: Male Dance 1  
  -- mdance2     /e mdance2: Male Dance 2  
 
+-- Press U for police radio animation  
+-- Press H to put hands up
+-- Press K to place hand over holster
 
 -- Commands  
  -- Salute: 		/e salute 		: Salute your commrads!  
@@ -49,16 +52,16 @@ New Animations:
  -- Cigar2:		/e cigar2		: Place a burnt cigar in your mouth  
  -- Joint:		/e joint		: Place a joint in your mouth  
  -- Cig:			/e cig			: Place a cig in your mouth  
- -- Holdcigar:	/e holdcigar	: Hold a cigar in your hand   
- -- Holdcig:		/e holdcig		: Hold a cig in your hand   
- -- Holdjoint:	/e holdjoint	: Hold a joint in your hand  
- -- Dead:		/e dead			: Play dead  
- -- Holster:		/e holster		: Hand hovers over holster   
- -- Aim:			/e aim			: Aim a pistol at the floor   
- -- Aim2:		/e aim2			: Aim a pistol up to your shoulder  
- -- Umbrella:       /e umbrella            : Use an umbrella  
- -- Guard:             /e guard                 : Enter a security/guard pose  
- -- Callphone:     /e phonecall           : Enter a phone call animation  
+ -- holdcigar:	/e holdcigar	: Hold a cigar in your hand   
+ -- holdcig:		/e holdcig		: Hold a cig in your hand   
+ -- holdjoint:	/e holdjoint	: Hold a joint in your hand  
+ -- dead:		/e dead			: Play dead  
+ -- holster:		/e holster		: Hand hovers over holster   
+ -- aim:			/e aim			: Aim a pistol at the floor   
+ -- aim2:		/e aim2			: Aim a pistol up to your shoulder  
+ -- umbrella:       /e umbrella            : Use an umbrella  
+ -- guard:             /e guard                 : Enter a security/guard pose  
+ -- phonecall:     /e phonecall           : Enter a phone call animation  
  -- shotbar:      /e shotbar : Take a shot at a bar  
  -- drunkbaridle  /e drunkbaridle: Lean up against a bar drunk  
  -- djidle       /e djidle : Idle at a dj booth  
@@ -68,8 +71,6 @@ New Animations:
  -- mdance1     /e mdance1: Male Dance 1  
  -- mdance2     /e mdance2: Male Dance 2  
 
--- Press U for police radio animation  
--- Press H to put your hands up    
 
 
 Special thanks to:    
