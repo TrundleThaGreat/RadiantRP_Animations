@@ -59,19 +59,19 @@ New Animations
  -- Umbrella:       /e umbrella            : Use an umbrella  
  -- Guard:             /e guard                 : Enter a security/guard pose  
  -- Callphone:     /e phonecall           : Enter a phone call animation  
- -- shotbar:      /e shotbar : Take a shot at a bar
- -- drunkbaridle  /e drunkbaridle: Lean up against a bar drunk
- -- djidle       /e djidle : Idle at a dj booth
- -- djidle2      /e djidle2 : Idle at a dj booth 2
- -- fdance1     /e fdance1: Female Dance 1
- -- fdance2     /e fdance2: Female Dance 2
- -- mdance1     /e mdance1: Male Dance 1
- -- mdance2     /e mdance2: Male Dance 2
+ -- shotbar:      /e shotbar : Take a shot at a bar  
+ -- drunkbaridle  /e drunkbaridle: Lean up against a bar drunk  
+ -- djidle       /e djidle : Idle at a dj booth  
+ -- djidle2      /e djidle2 : Idle at a dj booth 2  
+ -- fdance1     /e fdance1: Female Dance 1  
+ -- fdance2     /e fdance2: Female Dance 2  
+ -- mdance1     /e mdance1: Male Dance 1  
+ -- mdance2     /e mdance2: Male Dance 2  
 
--- Press U for police radio animation
--- Press H to put your hands up  
+-- Press U for police radio animation  
+-- Press H to put your hands up    
 
 
-Special thanks to:   
---New custom animations based off DavesEmotes from @davewazere on FiveM
+Special thanks to:    
+--New custom animations based off DavesEmotes from @davewazere on FiveM  
 --https://forum.fivem.net/t/release-daves-emotes/140216   
