@@ -1,5 +1,5 @@
 Config = {}
-Config.ImmediatelyCancel = false -- Plays Exit animation if FALSE | Skips animation if TRUE
+Config.ImmediatelyCancel = true -- Plays Exit animation if FALSE | Skips animation if TRUE
 Config.RadioKey = 303  --- Default setting is U
 Config.HandsUpKey = 74  --- Default setting is H
 Config.HoverHolsterKey = 311  --- Default setting is K
