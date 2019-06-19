@@ -15,7 +15,7 @@ This resource does NOT require ESX/vRP, just start the resource and enjoy.
 - Unloads old anim dic
 - Added some of the nightclub dlc animations, feel free to add the rest yourself
 
-New Animations
+New Animations:    
  -- shotbar:      /e shotbar : Take a shot at a bar  
  -- drunkbaridle  /e drunkbaridle: Lean up against a bar drunk  
  -- djidle       /e djidle : Idle at a dj booth  
