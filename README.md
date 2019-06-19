@@ -16,14 +16,14 @@ This resource does NOT require ESX/vRP, just start the resource and enjoy.
 - Added some of the nightclub dlc animations, feel free to add the rest yourself
 
 New Animations
- -- shotbar:      /e shotbar : Take a shot at a bar
- -- drunkbaridle  /e drunkbaridle: Lean up against a bar drunk
- -- djidle       /e djidle : Idle at a dj booth
- -- djidle2      /e djidle2 : Idle at a dj booth 2
- -- fdance1     /e fdance1: Female Dance 1
- -- fdance2     /e fdance2: Female Dance 2
- -- mdance1     /e mdance1: Male Dance 1
- -- mdance2     /e mdance2: Male Dance 2
+ -- shotbar:      /e shotbar : Take a shot at a bar  
+ -- drunkbaridle  /e drunkbaridle: Lean up against a bar drunk  
+ -- djidle       /e djidle : Idle at a dj booth  
+ -- djidle2      /e djidle2 : Idle at a dj booth 2  
+ -- fdance1     /e fdance1: Female Dance 1  
+ -- fdance2     /e fdance2: Female Dance 2  
+ -- mdance1     /e mdance1: Male Dance 1  
+ -- mdance2     /e mdance2: Male Dance 2  
 
 
 -- Commands  
