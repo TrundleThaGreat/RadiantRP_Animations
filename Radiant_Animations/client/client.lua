@@ -119,6 +119,12 @@ AddEventHandler('Radiant_Animations:StopAnimations', function()
 	end
 end)
 
+RegisterNetEvent('Radiant_Animations:Scenario')
+AddEventHandler('Radiant_Animations:Scenario', function(ad)
+	local player = PlayerPedId()
+	TaskStartScenarioInPlace(player, ad, 0, 1)   
+end)
+
 RegisterNetEvent('Radiant_Animations:Surrender')  -- Too many waits to make it work properly within the config
 AddEventHandler('Radiant_Animations:Surrender', function()
 	local player = PlayerPedId()
@@ -206,11 +212,13 @@ RegisterCommand("e", function(source, args)
 						end
 						return
 					elseif Config.Anims[i].data.type == 'scenario' then
+						local ad = Config.Anims[i].data.ad
+
 						if vehiclecheck() then
 							if IsPedActiveInScenario(player) then
 								ClearPedTasks(player)
 							else
-								TaskStartScenarioInPlace(player, 'WORLD_HUMAN_COP_IDLES', 0, 1)   
+								TriggerEvent('Radiant_Animations:Scenario', ad)
 							end 
 						end
 					else
