@@ -1,9 +1,9 @@
-local playerCurrentlyAnimated 		= false
-local playerCurrentlyHasProp 		= false
-local playerCurrentlyHasWalkstyle 	= false
-local surrendered 			   		= false
-local firstAnim 			   		= true
-local playerPropList 		   		= {}
+local playerCurrentlyAnimated = false
+local playerCurrentlyHasProp = false
+local playerCurrentlyHasWalkstyle = false
+local surrendered = false
+local firstAnim = true
+local playerPropList = {}
 local LastAD
 
 Citizen.CreateThread( function()
@@ -220,7 +220,7 @@ RegisterCommand("e", function(source, args)
 	local argh = tostring(args[1])
 
 	if argh == 'help' then -- List Anims in Chat Command
-		TriggerEvent('chat:addMessage', { args = { '[^1Animations^0]: salute, finger, finger2, phonecall, surrender, facepalm, notes, brief, brief2, foldarms, foldarms2, damn, fail, gang1, gang2, no, pickbutt, grabcrotch, peace, cigar, cigar2, joint, cig, holdcigar, holdcig, holdjoint, dead, holster, aim, aim2, slowclap, box, cheer, bum, leanwall, copcrowd, copcrowd2, copidle, shotbar, drunkbaridle, djidle, djidle2, fdance1, fdance2, mdance1, mdance2' } })
+		TriggerEvent('chat:addMessage', { args = { '[^1Animations^0]: salute, finger, finger2, phonecall, surrender, facepalm, notes, brief, brief2, foldarms, foldarms2, damn, fail, gang1, gang2, no, pickbutt, grabcrotch, peace, cigar, cigar2, joint, cig, holdcigar, holdcig, holdjoint, dead, holster, aim, aim2, slowclap, box, cheer, bum, leanwall, copcrowd, copcrowd2, copidle, shotbar, drunkbaridle, djidle, djidle2, fdance1, fdance2, mdance1, mdance2, walk1-44' } })
 	elseif argh == 'stuckprop' then -- Deletes Clients Props Command
 		TriggerEvent('Radiant_Animations:KillProps')
 	elseif argh == 'surrender' then -- I'll figure out a better way to do animations with this much depth later.
